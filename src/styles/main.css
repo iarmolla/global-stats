@@ -1,0 +1,42 @@
+.contenedorMainView {
+    background-image: url(https://i.pinimg.com/originals/e5/2d/57/e52d573ea72014060136bea750762d6e.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#sectionTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sectionTitle h3{
+    font-size: 2rem;
+    text-shadow: black 2px 1px;
+    color: white;
+}
+
+#sectionTitle h1{
+    font-size: 5rem;
+    text-shadow: black 3px 2px;
+    color: white;
+}
+
+#loginButton{
+    font-size: 2rem;
+    box-shadow: 5px 4px 6px black;
+    background-color: rgba(0,0,0,0.7);
+    width: 200px;
+}
+
+#signupButton{
+    font-size: 2rem;
+    box-shadow: 5px 4px 6px black;
+    background-color: rgba(0,0,0,0.7);
+    width: 200px;
+    margin-left: 50px;
+}

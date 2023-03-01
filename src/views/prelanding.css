@@ -1,0 +1,115 @@
+#imgCarousel {
+  object-fit: cover;
+  height: 91.4vh;
+  object-position: top;
+  filter: brightness(0.9);
+}
+
+.carousel-text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.carousel-image {
+  object-position: center;
+}
+
+.navbar-title {
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.footer-container {
+  background-color: #2f3136;
+}
+
+.item-text > p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.container-text {
+  padding: 2rem;
+  max-width: 600px;
+  border: 1px solid #2f3136;
+  border-radius: 1rem;
+}
+.container-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.container-text {
+  background-color: #2f3136;
+  color: #fff;
+}
+
+.navbar-button {
+  margin-right: 1rem;
+}
+.container-text--upgrade {
+  opacity: 0.9;
+}
+.container-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.container-section--text {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 4rem;
+}
+@media (min-width: 320px) {
+  .carousel-image {
+    object-position: left;
+  }
+  .container-text {
+    background-color: #2f3136;
+    color: #fff;
+    min-width: 300px;
+  }
+  .carousel-caption {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#skipButton {
+  position: fixed;
+  height: 70px;
+  width: 250px;
+  left: 85%;
+  top: 90%;
+  z-index: 1000;
+}
+
+.inputData{
+  text-align: center;
+}
+
+.selectModalPrelanding{
+  width: 350px;
+  margin-top: 2%;
+  font-size: larger;
+}
+
+.inputModalPrelanding{
+  width: 350px;
+  margin-top: 2%;
+  font-size: larger;
+}

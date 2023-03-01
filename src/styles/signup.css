@@ -1,0 +1,44 @@
+.contenedorSignup{
+    background-image: url(https://i.pinimg.com/originals/e5/2d/57/e52d573ea72014060136bea750762d6e.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#formBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.formSignup{
+    box-shadow: 5px 4px 6px black;
+    padding: 10% 10%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width:300px;
+}
+
+.formSignup h2{
+    text-align: center;
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.signupMessage{
+    text-align: center;
+    color: yellow;
+}
+
+#linkToLogin{
+    text-align: center;
+}

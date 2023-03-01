@@ -1,0 +1,58 @@
+.notifBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(69, 69, 69);
+    position: fixed;
+}
+
+.notifContainer {
+    width: 800px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: rgb(207, 203, 203);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+.itemNotif{
+    border-radius: 12px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 2%;
+}
+
+.itemNotif:hover{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.itemNotif span{
+
+    margin-left: 10px;
+}
+
+#iconDot{
+    margin-right: 10px;
+}
+
+.rightSpanNotif{
+    float: right;
+    margin-right: 15px;
+
+}
+
+#optionNotif{
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+#optionNotif:hover{
+    color:lightskyblue;
+}

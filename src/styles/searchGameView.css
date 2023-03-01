@@ -1,0 +1,149 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  background: url(https://images7.alphacoders.com/108/thumb-1920-1081933.jpg);
+  background-position: center center;
+  border-radius: 0 0 0 10rem;
+}
+.search-container-- {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  background: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0 0 0 10rem;
+}
+.search-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: inherit;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  margin: 0;
+}
+.search-text {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #cccccc;
+}
+.item-search {
+  border: none;
+  outline: none;
+}
+.container-item {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  background-color: #fff;
+  padding: 0.4rem 2rem;
+  border-radius: 1rem;
+}
+
+.search__container {
+  background-color: #0e1114;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 0.24fr);
+}
+.card-game:hover {
+  cursor: pointer;
+}
+
+.card-image {
+  height: 100%;
+}
+
+@media (max-width: 1050px) {
+  .search-text {
+    margin: 1rem 0;
+  }
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .item-search {
+    padding-right: 0rem;
+  }
+
+  .container-titles {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .card-game {
+    height: 100%;
+    width: 100%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-game {
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-game {
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-game {
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1050px) {
+  .card-game {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.ellipsis-card {
+  width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

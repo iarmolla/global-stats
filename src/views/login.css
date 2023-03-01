@@ -1,0 +1,102 @@
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #2f3136;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpaperaccess.com/full/5400421.png);
+    background-position: top center;
+  }
+  
+  .form__title {
+    font-size: 2rem;
+  }
+  
+.form__paragraph {
+    font-weight: 300;
+  }
+  
+  .form {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+    width: 400px;
+    padding: 8rem 3rem;
+    opacity: .7;
+  }
+  
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+  }
+  
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  
+  .form__label {
+    color: #5757577e;
+    position: absolute;
+    top: 0;
+  }
+  
+  .form__label {
+    border: none;
+    outline: none;
+    transition: all .3s;
+  }
+  
+  .form__label:hover {
+    cursor: text;
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: .5rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+  }
+  
+  .form__input:focus+.form__label,
+  .form__input:not(:placeholder-shown)+.form__label {
+    transform: translateY(-1rem);
+  }
+  
+  .form__submit {
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    background-color: #CD5C5C ;
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    border: none;
+  }
+  .form__link{
+    color:#CD5C5C ;
+    opacity: .6;
+  }
+  .form__link:hover{
+    color:#CD5C5C;
+    opacity: 1;
+  }
+  .form__submit:hover {
+    opacity: .9;
+  }
+  
+  .form__error {
+    font-size: .8rem;
+    text-align: left;
+    color: red;
+  }

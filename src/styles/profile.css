@@ -1,0 +1,99 @@
+.container__profile {
+  background-image: url(https://i.pinimg.com/originals/18/75/19/187519a4719ca8baead7eba222787ef1.jpg);
+  height: 300px;
+  background-size: cover;
+  object-position: center center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.8);
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+.profile__image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  margin-left: 1rem;
+}
+.profile__card {
+  display: grid;
+  justify-content: baseline;
+  align-items: center;
+  height: 140px;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: .2rem;
+  margin: 3rem;
+  border: 2px solid rgb(119, 44, 44);
+
+}
+.profile__user {
+  font-size: 2rem;
+}
+.profile__items{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.profile{
+  background-color: #0d1117;
+}
+.card--body{
+  display: grid;
+  grid-template-columns: 2;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.card-section{
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  
+}
+.items-section{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.item{
+  font-size: 1.2rem;
+  width: 300px;
+}
+.card--color{
+  border: 2px solid rgb(119, 44, 44);
+  background-color: #0e1114;
+}
+
+.cardsGamesStats{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardsGamesStats div{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border-color: darkred;
+  background-color: gray;
+}
+
+.cardsGamesStats li{
+  background-color: lightgray;
+}
+
+.cardsGamesStats img{
+  height: 350px;
+}
+
+.cardsGamesStats div:hover{
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+}
